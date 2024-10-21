@@ -1,0 +1,24 @@
+.game-result {
+  margin-bottom: 10px;
+}
+
+.game-result button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  color: black;
+}
+
+.game-result button.selected.win {
+  background-color: #28a745;
+  color: white;
+  border-color: #28a745;
+}
+
+.game-result button.selected.loss {
+  background-color: #dc3545;
+  color: white;
+  border-color: #dc3545;
+}
